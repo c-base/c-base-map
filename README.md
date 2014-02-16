@@ -6,11 +6,7 @@ An interactive map of available areas and interfaces at c-base.
 Installation
 ------------
 
-First install Bower: http://bower.io/
-
-Then (in this directory) run: 
-
-	bower install
+No Installation is necessary anymore. Dependency to Bower was removed.
 
 Adding Your Own Markers
 -----------------------

@@ -44,18 +44,30 @@
 		<script src="bower_components/jquery/dist/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="bower_components/handlebars/handlebars.min.js"></script>
 		
 		<script src="static/leaflet-0.7.2/leaflet.js"></script>
 		
-		<script type="text/javascript">
+		<script src="markers.js"></script>
+
+		<!-- this describes how map marker popups are gonna look like -->
+		<script type="text/x-handlebars-template" id="popup-template">
+			<b>{{ name }}</b><br />
+			{{ desc }}<br />
+			<br />
+			<a href="{{ url }}">Go on my dear ...</a>
+		</script>
+
+		<script type="text/javascript">		
+		var app = app || {};
 		
-		$(document).ready(function() {
-			
+		$(document).ready(function() {			
+					
 			var map = L.map('map', {
 				minZoom: 0,
 				maxZoom: 6,
 				zoom: 3,
-				center: [0,0],
+				center: [30,20],
 				maxBounds: [[-80,-180],[80,180]]
 			});
 
@@ -63,6 +75,15 @@
 			    attribution: '<a href="http://c-base.org/">c-base e.V.</a>!',
 			    noWrap: true
 			}).addTo(map);
+			
+			var source  = $("#popup-template").html();
+			var template = Handlebars.compile(source);
+			
+			$.each(app.markers, function() {				
+				var marker = L.marker(this.coord).addTo(map);
+				var html = template(this);
+				marker.bindPopup(html);
+			});
 			
 		});
 		

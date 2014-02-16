@@ -11,14 +11,14 @@ var app = app || {};
 		// Nerdarea
 		{
 			name: 'Nerdarea',
-			coord: [40.0, 52.25],
+			coord: [-37.0, 55.0],
 			desc: 'The Nerdarea is an area for nerds.',
 			url: 'http://c-base.org/',
 			icon: app.red_icon
 		},
 		{
 			name: 'Hyperblast',
-			coord: [30.0, 8.0],
+			coord: [-47.0, 6.0],
 			desc: 'Music-Player in the Nördarea.',
 			url: 'http://hyperblast.cbrp3.c-base.org/'
 		}

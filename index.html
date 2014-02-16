@@ -47,8 +47,9 @@
 		<script src="bower_components/handlebars/handlebars.min.js"></script>
 		
 		<script src="static/leaflet-0.7.2/leaflet.js"></script>
-		
+		<script src="icons.js"></script>
 		<script src="markers.js"></script>
+		
 
 		<!-- this describes how map marker popups are gonna look like -->
 		<script type="text/x-handlebars-template" id="popup-template">
@@ -79,10 +80,18 @@
 			var source  = $("#popup-template").html();
 			var template = Handlebars.compile(source);
 			
-			$.each(app.markers, function() {				
-				var marker = L.marker(this.coord).addTo(map);
+			$.each(app.markers, function() {
+				var icon;			
+				if(this.icon !== undefined) {
+					icon = this.icon
+				} else {
+					icon = app.blue_icon;
+				}
+				var marker = L.marker(this.coord, {icon: icon}).addTo(map);
+				
 				var html = template(this);
 				marker.bindPopup(html);
+				
 			});
 			
 		});

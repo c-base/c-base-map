@@ -19,12 +19,15 @@ Open file markers.js and add an entry like this:
 
 	// Nerdarea
 	{
-		'name': 'Nerdarea'
-		'coord': [0, 0],
-		'desc': 'The Nerdarea is an area for nerds.',
-		'url': 'http://c-base.org/'
+		name: 'Nerdarea'
+		coord: [0, 0],
+		desc: 'The Nerdarea is an area for nerds.',
+		url: 'http://c-base.org/'
+		// optional icon:
+		icon: app.red_icon
 	},
 
+The available icons are listed in icons.js.
 
 Recreating Map Tiles
 --------------------

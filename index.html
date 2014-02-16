@@ -10,7 +10,19 @@
 		<link rel="stylesheet" href="static/bootstrap/bootstrap-3.1.1-dist/css/bootstrap.min.css" type="text/css">
 		
 		<link href="static/leaflet-0.7.2/leaflet.css" rel="stylesheet">
-
+		<style>
+	        body {
+	            padding: 0;
+	            margin: 0;
+	        }
+	        html, body, #map {
+	            height: 100%;
+	            width: 100%;
+	        }
+			#map {
+				background-color: #000;
+			}
+	    </style>
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -19,28 +31,8 @@
 		<![endif]-->
 		</head>
 	<body>
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-					<h1>map of c-base</h1>
-				</div><!-- /.col -->
-			</div><!-- /.row -->
-			
-			<div class="row">
-				<div class="col-xs-12">
-					
-					<div id="map" style="height: 500px;"></div>
-					
-				</div><!-- /.col -->
-			</div><!-- /.row -->
-			
-			<div class="row">
-				<div class="col-xs-12">
-					Copyright 2014 &copy; by c-base e.V.
-				</div><!-- /.col -->
-			</div><!-- /.row -->
-  	
-		</div><!-- /.container -->
+		<div id="map"></div>
+		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="static/jquery-2.1.0.min.js" type="text/javascript" charset="utf-8"></script>
 		

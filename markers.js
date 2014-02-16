@@ -7,7 +7,14 @@ var app = app || {};
     'use strict';
 
 	app.markers = [
-
+		// Mainhall
+		{
+			name: 'Megablast',
+			coord: [-28.0, -85.0],
+			desc: 'Music-Player for the main hall.',
+			url: 'http://megablast.cbrp3.c-base.org/'
+		},
+		
 		// Nerdarea
 		{
 			name: 'Nerdarea',
@@ -21,6 +28,14 @@ var app = app || {};
 			coord: [-47.0, 6.0],
 			desc: 'Music-Player in the Nördarea.',
 			url: 'http://hyperblast.cbrp3.c-base.org/'
+		},
+		
+		// c-lab 
+		{
+			name: 'Labblaster',
+			coord: [-55.0, 130.0],
+			desc: 'Music player for the c-lab',
+			url: 'http://baseos.cbrp3.c-base.org/tinyblast/'
 		}
 	
 	];

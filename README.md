@@ -38,3 +38,8 @@ If, for some reason, you want to re-cut the map tiles, use the following:
 	./imagemagick.sh clean-map-ohne-label.png
 
 (or replace ''clean-map-ohne-label.png'' with your desired filename).
+
+Credits
+-------
+
+c-base-map ist based on 30C3-Map by Michael Kreil: https://github.com/MichaelKreil/30c3-map

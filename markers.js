@@ -32,7 +32,7 @@ var app = app || {};
 		
 		// c-lab 
 		{
-			name: 'Labblaster',
+			name: 'Tinyblast',
 			coord: [-55.0, 130.0],
 			desc: 'Music player for the c-lab',
 			url: 'http://baseos.cbrp3.c-base.org/tinyblast/'

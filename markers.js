@@ -10,32 +10,40 @@ var app = app || {};
 		// Mainhall
 		{
 			name: 'Megablast',
-			coord: [-28.0, -85.0],
+			coord: [-54, -100],
 			desc: 'Music-Player for the main hall.',
-			url: 'http://megablast.cbrp3.c-base.org/'
+			url: 'http://megablast.cbrp3.c-base.org/',
+			icon: app.audio_icon
 		},
 		{
 			name: 'DMX-DMON',
-			coord: [-28.0, -75.0],
+			coord: [-54, -113.0],
 			desc: 'DMX light control for the main hall.',
 			url: 'http://baseos.cbrp3.c-base.org/dmxdmon/',
-			icon: app.red_icon
+			icon: app.lightbulb_icon
 		},
-		
-		
-		// Nerdarea
 		{
-			name: 'Nerdarea',
-			coord: [-37.0, 55.0],
-			desc: 'The Nerdarea is an area for nerds.',
-			url: 'http://c-base.org/',
-			icon: app.red_icon
+			name: 'Bar',
+			coord: [-30.0, -112.0],
+			desc: 'A place to get cold beverages.',
+			url: '',
+			icon: app.bar_icon
 		},
+		{
+			name: 'Matelight',
+			coord: [-69.0, -80.0],
+			desc: 'Mate bottle based pixel display.',
+			url: 'http://matelight.cbrp3.c-base.org/',
+			icon: app.videogames_icon
+		},
+		
+		// Nerdarea		
 		{
 			name: 'Hyperblast',
 			coord: [-47.0, 6.0],
 			desc: 'Music-Player in the Nördarea.',
-			url: 'http://hyperblast.cbrp3.c-base.org/'
+			url: 'http://hyperblast.cbrp3.c-base.org/',
+			icon: app.audio_icon
 		},
 		
 		// c-lab 
@@ -43,7 +51,8 @@ var app = app || {};
 			name: 'Labblaster',
 			coord: [-55.0, 130.0],
 			desc: 'Music player for the c-lab',
-			url: 'http://baseos.cbrp3.c-base.org/tinyblast/'
+			url: 'http://baseos.cbrp3.c-base.org/tinyblast/',
+			icon: app.audio_icon
 		}
 	
 	];

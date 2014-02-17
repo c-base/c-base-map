@@ -31,5 +31,38 @@ var app = app || {};
         popupAnchor: [1, -34],
         shadowSize:  [41, 41]
     });
+    app.bar_icon = L.icon({
+        iconUrl: 'icons/bar.png',
+        shadowUrl: 'icons/shadow.png',
+        iconSize:    [32, 37],
+        iconAnchor:  [14, 41],
+        popupAnchor: [1, -34],
+        shadowSize:  [45, 37]
+    });
+    app.audio_icon = L.icon({
+        iconUrl: 'icons/audio.png',
+        shadowUrl: 'icons/shadow.png',
+        iconSize:    [32, 37],
+        iconAnchor:  [14, 41],
+        popupAnchor: [1, -34],
+        shadowSize:  [45, 37]
+    });
+    app.lightbulb_icon = L.icon({
+        iconUrl: 'icons/lightbulb.png',
+        shadowUrl: 'icons/shadow.png',
+        iconSize:    [32, 37],
+        iconAnchor:  [14, 41],
+        popupAnchor: [1, -34],
+        shadowSize:  [45, 37]
+    });
+    app.videogames_icon = L.icon({
+        iconUrl: 'icons/videogames.png',
+        shadowUrl: 'icons/shadow.png',
+        iconSize:    [32, 37],
+        iconAnchor:  [14, 41],
+        popupAnchor: [1, -34],
+        shadowSize:  [45, 37]
+    });
+	
 
 })();             

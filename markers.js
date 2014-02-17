@@ -16,7 +16,7 @@ var app = app || {};
 		},
 		{
 			name: 'Megablast',
-			coord: [-28.0, -82.0],
+			coord: [-28.0, -78.0],
 			desc: 'DMX light control for the main hall.',
 			url: 'http://baseos.cbrp3.c-base.org/dmxdmon/',
 			icon: app.red_icon

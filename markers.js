@@ -10,13 +10,13 @@ var app = app || {};
 		// Mainhall
 		{
 			name: 'Megablast',
-			coord: [-28.0, -85.0],
+			coord: [-28.0, -82.0],
 			desc: 'Music-Player for the main hall.',
 			url: 'http://megablast.cbrp3.c-base.org/'
 		},
 		{
 			name: 'Megablast',
-			coord: [-28.0, -78.0],
+			coord: [-28.0, -75.0],
 			desc: 'DMX light control for the main hall.',
 			url: 'http://baseos.cbrp3.c-base.org/dmxdmon/',
 			icon: app.red_icon

@@ -14,6 +14,14 @@ var app = app || {};
 			desc: 'Music-Player for the main hall.',
 			url: 'http://megablast.cbrp3.c-base.org/'
 		},
+		{
+			name: 'Megablast',
+			coord: [-28.0, -82.0],
+			desc: 'DMX light control for the main hall.',
+			url: 'http://baseos.cbrp3.c-base.org/dmxdmon/',
+			icon: app.red_icon
+		},
+		
 		
 		// Nerdarea
 		{
@@ -32,7 +40,7 @@ var app = app || {};
 		
 		// c-lab 
 		{
-			name: 'Tinyblast',
+			name: 'Labblaster',
 			coord: [-55.0, 130.0],
 			desc: 'Music player for the c-lab',
 			url: 'http://baseos.cbrp3.c-base.org/tinyblast/'

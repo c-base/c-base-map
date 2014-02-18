@@ -23,13 +23,6 @@ var app = app || {};
 			icon: app.lightbulb_icon
 		},
 		{
-			name: 'c_leuse lightcontrol',
-			coord: [-5.0, -40.0],
-			desc: 'control of photon emitters in airlock',
-			url: 'https://c-beam.cbrp3.c-base.org/c_leuse',
-			icon: app.lightbulb_icon
-		},
-		{
 			name: 'Bar',
 			coord: [-30.0, -112.0],
 			desc: 'A place to get cold beverages.',
@@ -50,7 +43,21 @@ var app = app || {};
 			url: 'https://twitter.com/klotuer',
 			icon: app.twitter_icon
 		},
-		
+		// C_leuse
+		{
+			name: 'c_leuse lightcontrol',
+			coord: [-5.0, -35.0],
+			desc: 'control of photon emitters in airlock',
+			url: 'https://c-beam.cbrp3.c-base.org/c_leuse',
+			icon: app.lightbulb_icon
+		},
+		{
+			name: 'c_leuse soundcontrol',
+			coord: [-5.0, -45.0],
+			desc: 'no webinterface. only physical interface',
+			url: 'https://jaseg.net/how-to-build-a-very-serious-volume-knob-from-a-1950ies-variac-and-an-arduino.html',
+			icon: app.audio_icon
+		},
 		// Nerdarea		
 		{
 			name: 'Hyperblast',

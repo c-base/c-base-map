@@ -54,7 +54,7 @@ var app = app || {};
 		{
 			name: 'c_leuse soundcontrol',
 			coord: [-5.0, -45.0],
-			desc: 'no webinterface. only physical interface',
+			desc: 'no webinterface. only physical interface at the bar',
 			url: 'https://jaseg.net/how-to-build-a-very-serious-volume-knob-from-a-1950ies-variac-and-an-arduino.html',
 			icon: app.audio_icon
 		},

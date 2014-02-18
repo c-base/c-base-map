@@ -46,7 +46,7 @@ var app = app || {};
 		{
 			name: 'Klotür',
 			coord: [5.0, -142.5],
-			desc: 'The Twitteraccount of an Object that caused a Shitstorm',
+			desc: 'The Twitter account of an object that caused a shitstorm.',
 			url: 'https://twitter.com/klotuer',
 			icon: app.twitter_icon
 		},

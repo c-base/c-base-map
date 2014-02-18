@@ -53,6 +53,13 @@ var app = app || {};
 			desc: 'Music player for the c-lab',
 			url: 'http://baseos.cbrp3.c-base.org/tinyblast/',
 			icon: app.audio_icon
+		},
+		{
+			name: '3D-Printer Cams',
+			coord: [-30.0, 115.0],
+			desc: 'Music player for the c-lab',
+			url: 'http://3dp.cbrp3.c-base.org/',
+			icon: app.video_icon
 		}
 	
 	];

@@ -25,6 +25,8 @@ Open file markers.js and add an entry like this:
 
 The available icons are listed in icons.js.
 
+If you want to have new icons, go to: http://mapicons.nicolasmollet.com/. All the Icons are currently coloured in #FF9900. 
+
 Recreating Map Tiles
 --------------------
 

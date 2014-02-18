@@ -30,6 +30,13 @@ var app = app || {};
 			icon: app.bar_icon
 		},
 		{
+			name: 'Replicator',
+			coord: [-37.0, -66.0],
+			desc: 'A place to get cold beverages from a machine. it gives a discount if you provide a UID and PIN',
+			url: 'https://member.cbrp3.c-base.org/account/gastropin/',
+			icon: app.bar_icon
+		},
+		{
 			name: 'Matelight',
 			coord: [-69.0, -80.0],
 			desc: 'Mate bottle based pixel display.',

@@ -23,6 +23,13 @@ var app = app || {};
 			icon: app.lightbulb_icon
 		},
 		{
+			name: 'c_leuse lightcontrol',
+			coord: [-5.0, -40.0],
+			desc: 'control of photon emitters in airlock',
+			url: 'https://c-beam.cbrp3.c-base.org/c_leuse',
+			icon: app.lightbulb_icon
+		},
+		{
 			name: 'Bar',
 			coord: [-30.0, -112.0],
 			desc: 'A place to get cold beverages.',
@@ -35,6 +42,13 @@ var app = app || {};
 			desc: 'Mate bottle based pixel display.',
 			url: 'http://matelight.cbrp3.c-base.org/',
 			icon: app.videogames_icon
+		},
+		{
+			name: 'Klotür',
+			coord: [5.0, -142.5],
+			desc: 'The Twitteraccount of an Object that caused a Shitstorm',
+			url: 'https://twitter.com/klotuer',
+			icon: app.twitter_icon
 		},
 		
 		// Nerdarea		
@@ -57,7 +71,7 @@ var app = app || {};
 		{
 			name: '3D-Printer Cams',
 			coord: [-30.0, 115.0],
-			desc: 'Music player for the c-lab',
+			desc: 'Webcams and Webinterface of the 3D-Printers',
 			url: 'http://3dp.cbrp3.c-base.org/',
 			icon: app.video_icon
 		}

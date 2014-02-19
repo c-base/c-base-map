@@ -1,7 +1,7 @@
 c-base-map
 ==========
 
-An interactive map of available areas and interfaces at c-base.
+An interactive map of available areas and interfaces at c-base. This Map is accessible from the internal crew network via https://c-beam.cbrp3.c-base.org/c-base-map/
 
 Installation
 ------------

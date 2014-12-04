@@ -88,7 +88,16 @@ var app = app || {};
 			desc: 'Webcams and Webinterface of the 3D-Printers',
 			url: 'http://3dp.cbrp3.c-base.org/',
 			icon: app.video_icon
-		}
+		},
+
+		// werkstatt
+		{
+			name: 'Mechblast',
+			coord: [30.0, 25.0],
+			desc: 'Music player for the c-lab',
+			url: 'http://mechblast.cbrp3.c-base.org',
+			icon: app.audio_icon
+		},
 	
 	];
 	

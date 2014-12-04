@@ -94,7 +94,7 @@ var app = app || {};
 		{
 			name: 'Mechblast',
 			coord: [30.0, 25.0],
-			desc: 'Music player for the c-lab',
+			desc: 'Music player for the workshop',
 			url: 'http://mechblast.cbrp3.c-base.org',
 			icon: app.audio_icon
 		},

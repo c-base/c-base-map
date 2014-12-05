@@ -82,13 +82,13 @@ var app = app || {};
 			url: 'http://labblaster.cbrp3.c-base.org/',
 			icon: app.audio_icon
 		},
-		{
-			name: '3D-Printer Cams',
-			coord: [-30.0, 115.0],
-			desc: 'Webcams and Webinterface of the 3D-Printers',
-			url: 'http://3dp.cbrp3.c-base.org/',
-			icon: app.video_icon
-		},
+	//	{
+	//		name: '3D-Printer Cams',
+	//		coord: [-30.0, 115.0],
+	//		desc: 'Webcams and Webinterface of the 3D-Printers',
+	//		url: 'http://3dp.cbrp3.c-base.org/',
+	//		icon: app.video_icon
+	//	},
 
 		// werkstatt
 		{

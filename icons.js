@@ -63,6 +63,21 @@ var app = app || {};
         popupAnchor: [1, -34],
         shadowSize:  [45, 37]
     });
-	
+    app.video_icon = L.icon({
+        iconUrl: 'icons/video.png',
+        shadowUrl: 'icons/shadow.png',
+        iconSize:    [32, 37],
+        iconAnchor:  [14, 41],
+        popupAnchor: [1, -34],
+        shadowSize:  [45, 37]
+    });	
+    app.twitter_icon = L.icon({
+        iconUrl: 'icons/tweet.png',
+        shadowUrl: 'icons/shadow.png',
+        iconSize:    [32, 37],
+        iconAnchor:  [14, 41],
+        popupAnchor: [1, -34],
+        shadowSize:  [45, 37]
+    });	
 
 })();             

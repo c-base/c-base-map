@@ -1,7 +1,7 @@
 c-base-map
 ==========
 
-An interactive map of available areas and interfaces at c-base.
+An interactive map of available areas and interfaces at c-base. This Map is accessible from the internal crew network via https://c-beam.cbrp3.c-base.org/c-base-map/
 
 Installation
 ------------
@@ -24,6 +24,8 @@ Open file markers.js and add an entry like this:
 	},
 
 The available icons are listed in icons.js.
+
+If you want to have new icons, go to: http://mapicons.nicolasmollet.com/. All the Icons are currently coloured in #FF9900. 
 
 Recreating Map Tiles
 --------------------

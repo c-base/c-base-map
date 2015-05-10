@@ -51,7 +51,16 @@ var app = app || {};
 			name: 'Labblaster',
 			coord: [-55.0, 130.0],
 			desc: 'Music player for the c-lab',
-			url: 'http://baseos.cbrp3.c-base.org/tinyblast/',
+			url: 'http://labblaster.cbrp3.c-base.org/',
+			icon: app.audio_icon
+		},
+		
+		// weltenbau
+		{
+			name: 'siri',
+			coord: [10.0, 120.0],
+			desc: 'Music player for Weltenbau-Lab',
+			url: 'http://siri.cbrp3.c-base.org/relaxx/',
 			icon: app.audio_icon
 		}
 	

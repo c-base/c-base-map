@@ -151,7 +151,7 @@ var app = app || {};
 			name: 'siri',
 			coord: [1.0, 135.0],
 			desc: 'Music player for Weltenbau-Lab',
-			url: 'http://siri.cbrp3.c-base.org/relaxx/',
+			url: 'http://siri.cbrp3.c-base.org/relaxx/index.php',
 			icon: app.audio_icon
 			
     },

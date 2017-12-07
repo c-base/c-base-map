@@ -51,6 +51,13 @@ var app = app || {};
 			icon: app.tv_icon
 		},
 		{
+			name: 'Bubbler',
+			coord: [-54, -170.0],
+			desc: 'Water column showing number of crew onboard as a heatmap',
+			url: 'http://openmct.cbrp3.c-base.org/#/browse/crewtracker.taxonomy:crewtracker/crewtracker.taxonomy:crew.online',
+			icon: app.lightbulb_icon
+		},
+		{
 			name: 'he1-terminal',
 			coord: [-37, -50.0],
 			desc: 'Information display for he1.',

@@ -43,6 +43,20 @@ var app = app || {};
 			url: 'http://matelight.cbrp3.c-base.org/',
 			icon: app.videogames_icon
 		},
+		{
+			name: 'mainhall-display',
+			coord: [-60, -30.0],
+			desc: 'Information display for main hall.',
+			url: 'http://c-flo.cbrp3.c-base.org/mainhall/',
+			icon: app.tv_icon
+		},
+		{
+			name: 'he1-terminal',
+			coord: [-37, -50.0],
+			desc: 'Information display for he1.',
+			url: 'https://c-beam.cbrp3.c-base.org/he1display',
+			icon: app.tv_icon
+		},
 		// C_leuse
 		{
 			name: 'c_leuse lightcontrol',
@@ -66,6 +80,20 @@ var app = app || {};
 			url: 'http://hyperblast.cbrp3.c-base.org/',
 			icon: app.audio_icon
 		},
+    {
+			name: 'nerdarea-display',
+			coord: [-37, 6.0],
+			desc: 'Information display for Nerdarea.',
+			url: 'http://c-flo.cbrp3.c-base.org/nerdarea/',
+			icon: app.tv_icon
+    },
+    {
+			name: 'nerdctrl-display',
+			coord: [-10, 25.0],
+			desc: 'Interactive information display for Nerdarea.',
+			url: 'http://c-flo.cbrp3.c-base.org/nerdarea/',
+			icon: app.tv_icon
+    },
 		
 		// c-lab 
 		{
@@ -75,6 +103,21 @@ var app = app || {};
 			url: 'http://labblaster.cbrp3.c-base.org/',
 			icon: app.audio_icon
 		},
+    {
+			name: 'c-lab-display',
+			coord: [-22, 115.0],
+			desc: 'Information display for c-lab.',
+			url: 'http://c-flo.cbrp3.c-base.org/c_lab/',
+			icon: app.tv_icon
+    },
+		// soundlab
+    {
+			name: 'soundlab-display',
+			coord: [-24, 160.0],
+			desc: 'Information display for soundlab.',
+			url: 'http://c-flo.cbrp3.c-base.org/soundlab/',
+			icon: app.tv_icon
+    },
 		// weltenbau
 		{
 			name: 'siri',
@@ -83,7 +126,14 @@ var app = app || {};
 			url: 'http://siri.cbrp3.c-base.org/relaxx/',
 			icon: app.audio_icon
 			
-        },
+    },
+    {
+			name: 'weltenbau-display',
+			coord: [22, 115.0],
+			desc: 'Information display for weltenbaulab.',
+			url: 'http://c-flo.cbrp3.c-base.org/weltenbaulab/',
+			icon: app.tv_icon
+    },
 	//	{
 	//		name: '3D-Printer Cams',
 	//		coord: [-30.0, 115.0],

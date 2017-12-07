@@ -40,7 +40,7 @@ var app = app || {};
 			name: 'Replicator',
 			coord: [-37.0, -66.0],
 			desc: 'A place to get cold beverages from a machine. it gives a discount if you provide a UID and PIN',
-			url: 'https://member.cbrp3.c-base.org/account/gastropin/',
+			url: 'http://replicator.cbrp3.c-base.org/',
 			icon: app.bar_icon
 		},
 		{

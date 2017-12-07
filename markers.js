@@ -92,6 +92,14 @@ var app = app || {};
 	//		icon: app.video_icon
 	//	},
 
+		// robolab
+		{
+			name: 'Roboblast',
+			coord: [5.0, 60.0],
+			desc: 'Music player for the robolab',
+			url: 'http://roboblast.cbrp3.c-base.org',
+			icon: app.audio_icon
+		},
 		// werkstatt
 		{
 			name: 'Mechblast',

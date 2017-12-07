@@ -16,6 +16,13 @@ var app = app || {};
 			icon: app.audio_icon
 		},
 		{
+			name: 'mechblast-display',
+			coord: [-28, -83.0],
+			desc: 'Information display for main hall.',
+			url: 'http://c-flo.cbrp3.c-base.org/mainhall/',
+			icon: app.tv_icon
+		},
+		{
 			name: 'DMX-DMON',
 			coord: [-54, -113.0],
 			desc: 'DMX light control for the main hall.',
@@ -85,6 +92,13 @@ var app = app || {};
 			desc: 'no webinterface. only physical interface at the bar',
 			url: 'https://jaseg.net/how-to-build-a-very-serious-volume-knob-from-a-1950ies-variac-and-an-arduino.html',
 			icon: app.audio_icon
+		},
+		{
+			name: 'cleuse-display',
+			coord: [-5, -55.0],
+			desc: 'Information display for the airlock.',
+			url: 'https://c-beam.cbrp3.c-base.org/events/',
+			icon: app.tv_icon
 		},
 		// Nerdarea		
 		{
@@ -159,18 +173,32 @@ var app = app || {};
 		// robolab
 		{
 			name: 'Roboblast',
-			coord: [5.0, 60.0],
+			coord: [4.0, 70.0],
 			desc: 'Music player for the robolab',
 			url: 'http://roboblast.cbrp3.c-base.org',
 			icon: app.audio_icon
 		},
+		{
+			name: 'roboblast-display',
+			coord: [5.0, 60.0],
+			desc: 'Information display for robolab.',
+			url: 'http://c-flo.cbrp3.c-base.org/robolab/',
+			icon: app.tv_icon
+		},
 		// werkstatt
 		{
 			name: 'Mechblast',
-			coord: [30.0, 25.0],
+			coord: [29.0, 35.0],
 			desc: 'Music player for the workshop',
 			url: 'http://mechblast.cbrp3.c-base.org',
 			icon: app.audio_icon
+		},
+		{
+			name: 'mechblast-display',
+			coord: [30.0, 25.0],
+			desc: 'Information display for workshop.',
+			url: 'http://c-flo.cbrp3.c-base.org/workshop/',
+			icon: app.tv_icon
 		}
 	
 	];

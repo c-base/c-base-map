@@ -100,6 +100,21 @@ var app = app || {};
 			url: 'https://c-beam.cbrp3.c-base.org/events/',
 			icon: app.tv_icon
 		},
+		// Server room
+		{
+			name: 'c-flo',
+			coord: [-25.0, 80.0],
+			desc: 'Internet of Things controller for c-base.',
+			url: 'http://app.flowhub.io/#runtime/endpoint?protocol%3Dwebsocket%26address%3Dws%3A%2F%2Fc-flo.cbrp3.c-base.org%3A3569%26id%3Da9dca883-c07f-4cd7-b369-180fa9b52b68',
+			icon: app.flow_icon
+		},
+    {
+			name: 'openmct',
+			coord: [-26, 90.0],
+			desc: 'Mission control dashboard for c-base.',
+			url: 'http://openmct.cbrp3.c-base.org',
+			icon: app.dashboard_icon
+    },
 		// Nerdarea		
 		{
 			name: 'Hyperblast',

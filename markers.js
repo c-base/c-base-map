@@ -107,7 +107,7 @@ var app = app || {};
 			name: 'Labblaster',
 			coord: [-55.0, 130.0],
 			desc: 'Music player for the c-lab',
-			url: 'http://labblaster.cbrp3.c-base.org/',
+			url: 'http://labblaster.cbrp3.c-base.org/relaxx/index.php',
 			icon: app.audio_icon
 		},
     {

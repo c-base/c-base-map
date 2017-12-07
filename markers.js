@@ -64,6 +64,13 @@ var app = app || {};
 			url: 'https://c-beam.cbrp3.c-base.org/he1display',
 			icon: app.tv_icon
 		},
+		{
+			name: 'hallway-display',
+			coord: [-37, -168.0],
+			desc: 'Information display for hallway.',
+			url: 'https://c-beam.cbrp3.c-base.org/he1display',
+			icon: app.tv_icon
+		},
 		// C_leuse
 		{
 			name: 'c_leuse lightcontrol',

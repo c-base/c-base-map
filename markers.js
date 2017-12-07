@@ -43,13 +43,6 @@ var app = app || {};
 			url: 'http://matelight.cbrp3.c-base.org/',
 			icon: app.videogames_icon
 		},
-		{
-			name: 'Klotür',
-			coord: [5.0, -142.5],
-			desc: 'The Twitter account of an object that caused a shitstorm.',
-			url: 'https://twitter.com/klotuer',
-			icon: app.twitter_icon
-		},
 		// C_leuse
 		{
 			name: 'c_leuse lightcontrol',
